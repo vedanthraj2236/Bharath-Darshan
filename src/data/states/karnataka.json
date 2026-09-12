@@ -1,0 +1,30 @@
+{
+  "state": "Karnataka",
+  "capital": "Bengaluru",
+  "languages": ["Kannada"],
+  "traditionalDress": {
+    "men": "The Panche (also called Lungi or Dhoti) — a cotton or silk cloth wrapped around the waist — worn with a shirt and an angavastram (a scarf draped over the shoulder). The Mysore Peta, a distinctive silk turban, is worn as ceremonial headwear.",
+    "women": "Silk sarees, most famously Mysore silk and Ilkal sarees, draped in a regional style and paired with traditional gold jewelry.",
+    "image": "/images/karnataka/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Mysuru Dasara",
+      "description": "Karnataka's official state festival ('Nada Habba'), celebrated over ten days in Mysuru with an illuminated Mysore Palace and a grand closing procession (Jumbo Savari) of decorated elephants."
+    },
+    {
+      "name": "Ugadi",
+      "description": "The Kannada New Year, marking the start of the traditional lunisolar calendar, observed with a dish called bevu-bella (neem and jaggery) symbolizing life's mix of sweetness and bitterness."
+    },
+    {
+      "name": "Kambala",
+      "description": "A traditional buffalo race held across the coastal districts of Karnataka, run through muddy paddy fields as part of a rural harvest-season sporting tradition."
+    }
+  ],
+  "danceForms": ["Yakshagana", "Dollu Kunitha", "Dammami (dance of the Siddi community)"],
+  "music": ["Carnatic music", "Hindustani music", "Sugama Sangeetha (light music)"],
+  "cuisine": ["Bisi Bele Bath", "Ragi Mudde", "Neer Dosa", "Mysore Pak", "Dharwad Peda"],
+  "artsCrafts": ["Mysore silk weaving", "Channapatna wooden toys", "Bidriware metal inlay work", "Mysore traditional paintings", "Sandalwood carving"],
+  "folklore": "Karnataka has a strong oral epic tradition performed by travelling bard communities. Its two best-known folk epics, 'Male Mahadeshwara' and 'Manteswamy Kavya,' have been sung for generations by professional singers in the Mysuru region and center on the lives of two revered folk saints of the Veerashaiva tradition.",
+  "monuments": ["Hampi (Vijayanagara ruins)", "Mysore Palace", "Gol Gumbaz, Bijapur", "Belur and Halebidu temples", "Badami Cave Temples"]
+}

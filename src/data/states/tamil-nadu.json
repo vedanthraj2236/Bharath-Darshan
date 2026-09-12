@@ -1,0 +1,30 @@
+{
+  "state": "Tamil Nadu",
+  "capital": "Chennai",
+  "languages": ["Tamil"],
+  "traditionalDress": {
+    "men": "The Veshti (also called dhoti), an unstitched white or cream cloth draped around the waist, often paired with an angavastram draped over the shoulders.",
+    "women": "Sarees, most famously the Kanchipuram silk saree; young unmarried girls traditionally wear a Pavadai-davani (half-saree).",
+    "image": "/images/tamil-nadu/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Pongal",
+      "description": "A four-day harvest festival thanking the Sun god, spanning Bhogi, Thai Pongal (the main day, when the Pongal dish is cooked), Maattu Pongal (honoring cattle, associated with the bull-taming sport Jallikattu), and Kaanum Pongal."
+    },
+    {
+      "name": "Puthandu (Tamil New Year)",
+      "description": "Marks the start of the Tamil calendar year, celebrated with new clothes, decorative kolam floor art at the entrance of homes, and family feasts."
+    },
+    {
+      "name": "Natyanjali Dance Festival",
+      "description": "An annual festival held at the Nataraja Temple in Chidambaram, where classical dancers from across India perform in honor of Lord Shiva as the cosmic dancer."
+    }
+  ],
+  "danceForms": ["Bharatanatyam", "Karakattam", "Kummi"],
+  "music": ["Carnatic music", "Tamil folk music (Villupattu, Parai)"],
+  "cuisine": ["Idli and dosa", "Sambar and rasam", "Chettinad cuisine", "Pongal (the dish)", "Filter coffee"],
+  "artsCrafts": ["Tanjore paintings", "Bronze idol casting (Swamimalai)", "Kanchipuram silk weaving", "Temple wood carving"],
+  "folklore": "The Tamil epic Silappatikaram tells the story of Kannagi, a woman whose husband Kovalan is wrongly executed in Madurai after being falsely accused of theft. Her grief and fury are said to have caused the city to burn, and she was later venerated as a goddess of chastity and justice.",
+  "monuments": ["Meenakshi Amman Temple, Madurai", "Brihadeeswarar Temple, Thanjavur", "Group of Monuments at Mahabalipuram", "Gangaikonda Cholapuram"]
+}

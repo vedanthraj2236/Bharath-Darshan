@@ -1,0 +1,30 @@
+{
+  "state": "Kerala",
+  "capital": "Thiruvananthapuram",
+  "languages": ["Malayalam"],
+  "traditionalDress": {
+    "men": "The Mundu, a white or cream rectangular cloth wrapped around the waist, worn plain for everyday use and with a gold-bordered border (kasavu) for festive occasions.",
+    "women": "The Kasavu saree, a white or off-white saree with a gold (zari) border, or the older two-piece Mundum Neriyathum — worn especially during Onam and Vishu.",
+    "image": "/images/kerala/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Onam",
+      "description": "Kerala's official harvest festival, marking the mythical homecoming of King Mahabali. Celebrated over ten days with flower carpets (Pookalam), a grand feast (Onasadya), and snake boat races (Vallam Kali)."
+    },
+    {
+      "name": "Vishu",
+      "description": "The Malayalam New Year, observed by viewing an auspicious arrangement of items called the Vishukkani first thing in the morning, believed to set the tone of prosperity for the year ahead."
+    },
+    {
+      "name": "Thrissur Pooram",
+      "description": "A major temple festival held in Thrissur, known for its procession of elaborately caparisoned elephants alongside traditional percussion ensembles and a large fireworks display."
+    }
+  ],
+  "danceForms": ["Kathakali", "Mohiniyattam", "Koodiyattam", "Theyyam"],
+  "music": ["Carnatic music", "Sopana Sangeetham", "Chenda Melam (percussion ensembles)"],
+  "cuisine": ["Appam with stew", "Puttu and kadala curry", "Sadya (banana-leaf feast)", "Fish moilee", "Payasam"],
+  "artsCrafts": ["Coir products", "Temple wood carving", "Aranmula metal mirrors", "Kathakali mask and costume making"],
+  "folklore": "A widely told legend holds that the sage-warrior Parasurama created Kerala by throwing his axe from Gokarna into the sea; the waters are said to have receded along its path, revealing the land now known as Kerala — giving rise to the traditional name 'Parasurama Kshetram' (Land of Parasurama).",
+  "monuments": ["Padmanabhaswamy Temple, Thiruvananthapuram", "Mattancherry (Dutch) Palace, Kochi", "Bekal Fort", "Padmanabhapuram Palace"]
+}
