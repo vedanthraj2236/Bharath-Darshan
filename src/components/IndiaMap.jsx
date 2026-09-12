@@ -6,16 +6,7 @@ import {
   Geography,
 } from 'react-simple-maps'
 import indiaStates from '../data/india-states.json'
-
-// Converts a state name like "Tamil Nadu" into "tamil-nadu" to match
-// the /state/:stateName route param and the data/states/*.json file naming.
-function slugify(name) {
-  return name
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-}
+import { slugify } from '../utils/statesIndex'
 
 // India's approximate geographic center, used to center the map projection.
 const MAP_CENTER = [82.8, 22.6]

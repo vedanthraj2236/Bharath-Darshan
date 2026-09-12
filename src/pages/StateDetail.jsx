@@ -1,18 +1,6 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-
-// Eagerly load every state JSON file at build time and index it by its
-// filename slug (e.g. "tamil-nadu.json" -> "tamil-nadu"), matching the
-// /state/:stateName route param and the project's file naming convention.
-const stateModules = import.meta.glob('../data/states/*.json', { eager: true })
-
-const stateDataBySlug = {}
-for (const path in stateModules) {
-  const match = path.match(/([^/]+)\.json$/)
-  if (match) {
-    stateDataBySlug[match[1]] = stateModules[path].default
-  }
-}
+import { getStateData } from '../utils/stateData'
 
 const TABS = [
   { id: 'overview', label: 'Overview' },
@@ -99,7 +87,7 @@ function DressImage({ src, alt }) {
 function StateDetail() {
   const { stateName } = useParams()
   const [activeTab, setActiveTab] = useState('overview')
-  const data = stateDataBySlug[stateName]
+  const data = getStateData(stateName)
 
   if (!data) {
     return <ContentComingSoon stateName={stateName} />
