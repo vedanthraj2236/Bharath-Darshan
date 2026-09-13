@@ -26,11 +26,11 @@ const ROWS = [
 
 function DataCell({ state, data }) {
   if (!state) {
-    return <td className="px-4 py-3 align-top text-sm text-gray-400">Select a state above.</td>
+    return <td className="px-4 py-3 align-top text-sm text-ink-500/70">Select a state above.</td>
   }
   if (!data) {
     return (
-      <td className="px-4 py-3 align-top text-sm text-gray-400">
+      <td className="px-4 py-3 align-top text-sm text-ink-500/70">
         Content coming soon for {state.name}.
       </td>
     )
@@ -40,35 +40,35 @@ function DataCell({ state, data }) {
 
 function CompareView({ stateA, stateB, dataA, dataB }) {
   return (
-    <div className="overflow-x-auto rounded-lg border border-gray-200">
+    <div className="overflow-x-auto rounded-2xl border border-gold-100 shadow-sm">
       <table className="w-full min-w-[640px] border-collapse text-sm">
         <thead>
-          <tr className="bg-gray-50">
-            <th className="w-48 px-4 py-3 text-left font-semibold text-gray-700">Field</th>
-            <th className="px-4 py-3 text-left font-semibold text-gray-700">
+          <tr className="bg-maroon text-ivory-50">
+            <th className="w-48 px-4 py-3 text-left font-heading text-base font-semibold">Field</th>
+            <th className="px-4 py-3 text-left font-heading text-base font-semibold">
               {stateA ? stateA.name : 'Select a state'}
             </th>
-            <th className="px-4 py-3 text-left font-semibold text-gray-700">
+            <th className="px-4 py-3 text-left font-heading text-base font-semibold">
               {stateB ? stateB.name : 'Select a state'}
             </th>
           </tr>
         </thead>
-        <tbody className="divide-y divide-gray-100">
+        <tbody className="divide-y divide-gold-100 bg-ivory-50">
           {ROWS.map((row) => (
             <tr key={row.label}>
               <th
                 scope="row"
-                className="bg-gray-50 px-4 py-3 text-left align-top text-sm font-medium text-gray-600"
+                className="bg-ivory-100 px-4 py-3 text-left align-top text-sm font-medium text-maroon"
               >
                 {row.label}
               </th>
               {dataA ? (
-                <td className="px-4 py-3 align-top text-gray-700">{row.render(dataA)}</td>
+                <td className="px-4 py-3 align-top text-ink-500">{row.render(dataA)}</td>
               ) : (
                 <DataCell state={stateA} data={dataA} />
               )}
               {dataB ? (
-                <td className="px-4 py-3 align-top text-gray-700">{row.render(dataB)}</td>
+                <td className="px-4 py-3 align-top text-ink-500">{row.render(dataB)}</td>
               ) : (
                 <DataCell state={stateB} data={dataB} />
               )}

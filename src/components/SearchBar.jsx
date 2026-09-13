@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { Search as SearchIcon } from 'lucide-react'
 import { ALL_STATES } from '../utils/statesIndex'
 
 const MAX_RESULTS = 8
@@ -42,6 +43,7 @@ function SearchBar() {
 
   return (
     <div ref={containerRef} className="relative mx-auto w-full max-w-md">
+      <SearchIcon className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-saffron-600" />
       <input
         type="text"
         value={query}
@@ -53,11 +55,11 @@ function SearchBar() {
         onKeyDown={handleKeyDown}
         placeholder="Search for a state..."
         aria-label="Search for a state"
-        className="w-full rounded-full border border-gray-300 px-4 py-2.5 text-sm shadow-sm focus:border-orange-500 focus:outline-none focus:ring-1 focus:ring-orange-500"
+        className="w-full rounded-full border border-gold-100 bg-ivory-50 py-2.5 pl-10 pr-4 text-sm text-ink shadow-sm transition-colors placeholder:text-ink-500/60 focus:border-saffron focus:outline-none focus:ring-1 focus:ring-saffron"
       />
 
       {isOpen && trimmed && (
-        <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg">
+        <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-2xl border border-gold-100 bg-ivory-50 shadow-lg">
           {matches.length > 0 ? (
             matches.map((s) => (
               <li key={s.slug}>
@@ -67,14 +69,14 @@ function SearchBar() {
                     setQuery('')
                     setIsOpen(false)
                   }}
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-700"
+                  className="block px-4 py-2.5 text-sm text-ink transition-colors hover:bg-saffron-50 hover:text-maroon"
                 >
                   {s.name}
                 </Link>
               </li>
             ))
           ) : (
-            <li className="px-4 py-2 text-sm text-gray-400">No states found</li>
+            <li className="px-4 py-2.5 text-sm text-ink-500">No states found</li>
           )}
         </ul>
       )}
