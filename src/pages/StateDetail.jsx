@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
   MapPin,
@@ -23,6 +23,28 @@ const TABS = [
   { id: 'artsCrafts', label: 'Arts & Crafts', icon: Palette },
   { id: 'monuments', label: 'Monuments', icon: Landmark },
 ]
+
+function SkeletonBlock({ className }) {
+  return <div className={`animate-pulse rounded-2xl bg-gold-100/50 ${className}`} />
+}
+
+function StateDetailSkeleton() {
+  return (
+    <div className="mx-auto max-w-4xl px-4 py-10 sm:py-14" aria-busy="true" aria-live="polite">
+      <span className="sr-only">Loading state details&hellip;</span>
+      <div className="mb-8">
+        <SkeletonBlock className="h-9 w-48" />
+        <div className="mt-3 flex gap-4">
+          <SkeletonBlock className="h-4 w-24" />
+          <SkeletonBlock className="h-4 w-32" />
+        </div>
+      </div>
+      <SkeletonBlock className="mb-8 h-12 w-full rounded-full" />
+      <SkeletonBlock className="h-40 w-full" />
+    </div>
+  )
+}
+
 
 function ContentComingSoon({ stateName }) {
   const readableName = stateName
@@ -129,7 +151,28 @@ function MonumentCard({ name }) {
 function StateDetail() {
   const { stateName } = useParams()
   const [activeTab, setActiveTab] = useState('overview')
-  const data = getStateData(stateName)
+  const [isLoading, setIsLoading] = useState(true)
+  const [data, setData] = useState(null)
+
+  // Data currently comes from a bundled JSON file, so lookup is instant —
+  // but this effect keeps the loading state correct if that ever changes
+  // to a real fetch, and gives the user visible feedback when switching
+  // states (rather than an abrupt content swap).
+  useEffect(() => {
+    setIsLoading(true)
+    setActiveTab('overview')
+
+    const timer = setTimeout(() => {
+      setData(getStateData(stateName))
+      setIsLoading(false)
+    }, 200)
+
+    return () => clearTimeout(timer)
+  }, [stateName])
+
+  if (isLoading) {
+    return <StateDetailSkeleton />
+  }
 
   if (!data) {
     return <ContentComingSoon stateName={stateName} />
@@ -157,7 +200,7 @@ function StateDetail() {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+            className={`flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full px-4 py-2.5 text-sm font-medium transition-colors ${
               activeTab === tab.id
                 ? 'bg-maroon text-ivory-50'
                 : 'text-ink-500 hover:bg-maroon-50 hover:text-maroon'
@@ -186,7 +229,7 @@ function StateDetail() {
             <div className="sm:col-span-2">
               <DressImage
                 src={data.traditionalDress.image}
-                alt={`Traditional dress of ${data.state}`}
+                alt={`Traditional dress worn by men and women in ${data.state}`}
               />
             </div>
             <div className="flex flex-col gap-4 sm:col-span-3">

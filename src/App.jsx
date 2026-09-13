@@ -5,6 +5,7 @@ import StateDetail from './pages/StateDetail'
 import Search from './pages/Search'
 import Compare from './pages/Compare'
 import About from './pages/About'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/compare" element={<Compare />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </BrowserRouter>
