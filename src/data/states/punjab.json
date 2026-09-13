@@ -1,0 +1,30 @@
+{
+  "state": "Punjab",
+  "capital": "Chandigarh",
+  "languages": ["Punjabi"],
+  "traditionalDress": {
+    "men": "Kurta-pajama paired with a turban (pagri); the Patiala shahi style of turban, associated with the former royal court of Patiala, is especially well known, along with the wide-legged Patiala salwar-style trousers.",
+    "women": "The salwar kameez, often paired with a phulkari (embroidered) dupatta; the Patiala suit — featuring heavily pleated, voluminous trousers — is a well-known regional variation.",
+    "image": "/images/punjab/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Baisakhi",
+      "description": "A harvest festival and Punjabi New Year that also marks the founding of the Khalsa in Sikh tradition, celebrated with fairs, Bhangra and Giddha performances, and gurdwara visits."
+    },
+    {
+      "name": "Lohri",
+      "description": "A winter bonfire festival marking the end of the coldest days, celebrated with folk songs, dancing, and offerings of sesame seeds, jaggery, and popcorn thrown into the fire."
+    },
+    {
+      "name": "Hola Mohalla",
+      "description": "A Sikh festival held the day after Holi at Anandpur Sahib, featuring displays of martial arts, mock battles, and Gatka (traditional sword-fighting)."
+    }
+  ],
+  "danceForms": ["Bhangra", "Giddha", "Gatka (martial dance)"],
+  "music": ["Folk music played on dhol, tumbi, and chimta", "Sufi Punjabi devotional music"],
+  "cuisine": ["Sarson da Saag with Makki di Roti", "Amritsari Kulcha", "Chole Bhature", "Lassi", "Butter Chicken"],
+  "artsCrafts": ["Phulkari embroidery", "Punjabi juttis (footwear)", "Wood carving"],
+  "folklore": "Heer Ranjha, immortalized in the 18th-century poet Waris Shah's telling, is Punjab's best-known tragic love legend: a herdsman named Ranjha and a wealthy family's daughter, Heer, fall in love but are separated by family opposition, and the story ends in their deaths — it is often read as an allegory for the soul's longing for the divine.",
+  "monuments": ["Golden Temple (Harmandir Sahib), Amritsar", "Jallianwala Bagh", "Qila Mubarak, Patiala", "Virasat-e-Khalsa"]
+}

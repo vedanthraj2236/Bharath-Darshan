@@ -1,0 +1,30 @@
+{
+  "state": "Rajasthan",
+  "capital": "Jaipur",
+  "languages": ["Hindi", "Rajasthani"],
+  "traditionalDress": {
+    "men": "An angarkha (a long overlapping tunic) or dhoti-kurta, paired with a colorful pagri (turban) whose style and color can indicate the wearer's region and community.",
+    "women": "A ghagra-choli (or lehenga-choli) — a long flared skirt with a fitted blouse — paired with an odhni (veil), often decorated with mirror work, embroidery, or bandhani (tie-dye) patterns.",
+    "image": "/images/rajasthan/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Teej",
+      "description": "A monsoon festival honoring Goddess Parvati, celebrated mainly by women who dress in green and take part in processions, especially grand in Jaipur."
+    },
+    {
+      "name": "Gangaur",
+      "description": "A festival celebrating the union of Lord Shiva and Goddess Parvati, marked by women carrying decorated idols of the goddess in colorful processions."
+    },
+    {
+      "name": "Jaisalmer Desert Festival",
+      "description": "A winter festival in the Thar Desert featuring folk music, Kalbelia dance performances, camel events, and traditional crafts."
+    }
+  ],
+  "danceForms": ["Ghoomar", "Kalbelia (snake dance)", "Kathputli (puppet theatre)"],
+  "music": ["Maand (folk ballads)", "Sung with sarangi, algoza, and dholak"],
+  "cuisine": ["Dal Baati Churma", "Gatte ki Sabzi", "Ker Sangri", "Laal Maas", "Ghevar"],
+  "artsCrafts": ["Blue pottery", "Bandhani tie-dye textiles", "Meenakari (enamel) jewelry", "Puppet-making"],
+  "folklore": "The Rajasthani folk ballad of Dhola and Maru is one of the region's oldest and most widely sung love legends: a prince and princess separated for years by distance and circumstance, whose devotion endures until they are eventually reunited — a story still performed by folk singers in Jaisalmer and Bikaner.",
+  "monuments": ["Hawa Mahal, Jaipur", "Amber Fort", "Mehrangarh Fort, Jodhpur", "Chittorgarh Fort", "City Palace, Udaipur"]
+}

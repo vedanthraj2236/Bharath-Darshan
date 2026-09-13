@@ -1,0 +1,30 @@
+{
+  "state": "Madhya Pradesh",
+  "capital": "Bhopal",
+  "languages": ["Hindi"],
+  "traditionalDress": {
+    "men": "Dhoti-kurta for everyday and ceremonial wear, with regional and tribal variations in color and style across the state's many communities.",
+    "women": "Sarees woven in the state's signature Chanderi (sheer silk-cotton with gold zari) and Maheshwari (reversible-border) styles; in rural and tribal areas, a lehenga-choli with an odhni is common.",
+    "image": "/images/madhya-pradesh/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Khajuraho Dance Festival",
+      "description": "A week-long festival held against the backdrop of the Khajuraho temples, showcasing India's major classical dance forms performed by leading artists."
+    },
+    {
+      "name": "Lokrang",
+      "description": "A state-organized festival celebrating Madhya Pradesh's folk and tribal dance, music, and craft traditions, bringing together performers from across the state."
+    },
+    {
+      "name": "Kajli Teej (Mahoba tradition)",
+      "description": "A Bundelkhand festival tied to the monsoon season, during which the folk epic of the warriors Alha and Udal is traditionally sung and celebrated."
+    }
+  ],
+  "danceForms": ["Rai (Bundelkhand)", "Karma (Gond and Oraon tribes)", "Gaur (Maria Gond tribe)"],
+  "music": ["Nirgun and tribal folk songs", "Percussion-led tribal music (nagada, dholak, timki)"],
+  "cuisine": ["Poha-Jalebi", "Dal Bafla", "Bhutte ka Kees", "Malwa-style thali"],
+  "artsCrafts": ["Chanderi and Maheshwari saree weaving", "Gond painting", "Tribal jewelry"],
+  "folklore": "The tragic legend of Rani Roopmati and Sultan Baz Bahadur is set in Mandu: Baz Bahadur, the last independent ruler of Malwa, fell in love with the singer Roopmati and built a palace and pavilion so she could view and worship the Narmada river each day. When Mughal forces defeated Baz Bahadur, Roopmati is said to have taken her own life rather than be captured.",
+  "monuments": ["Khajuraho Group of Monuments", "Sanchi Stupa", "Gwalior Fort", "Mandu (Jahaz Mahal and Roopmati's Pavilion)", "Bhimbetka Rock Shelters"]
+}

@@ -1,0 +1,30 @@
+{
+  "state": "Gujarat",
+  "capital": "Gandhinagar",
+  "languages": ["Gujarati"],
+  "traditionalDress": {
+    "men": "A kediyu (a frock-style, frilled kurta) worn over a chorno (loose cotton trousers resembling a stitched dhoti), often with a colorful turban called a phento.",
+    "women": "A chaniya choli (or ghagra choli) — a flared, mirror-worked skirt with a fitted blouse and a dupatta — worn especially for Garba and Dandiya Raas during Navratri.",
+    "image": "/images/gujarat/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Navratri",
+      "description": "Nine nights of worship of the Mother Goddess, marked by the Garba and Dandiya Raas folk dances performed in large circles around a central lamp or shrine."
+    },
+    {
+      "name": "Uttarayan",
+      "description": "Gujarat's kite festival, held around mid-January, when rooftops across the state fill with people flying and competing with colorful kites."
+    },
+    {
+      "name": "Rann Utsav",
+      "description": "A winter cultural festival held on the white salt desert of the Great Rann of Kutch, featuring local music, dance, handicrafts, and moonlit camping."
+    }
+  ],
+  "danceForms": ["Garba", "Dandiya Raas", "Bhavai"],
+  "music": ["Garba folk songs", "Dhol-driven festival music"],
+  "cuisine": ["Dhokla", "Thepla", "Undhiyu", "Khandvi", "Fafda-Jalebi"],
+  "artsCrafts": ["Patola silk weaving (Patan)", "Bandhani tie-dye", "Kutch embroidery and mirror work"],
+  "folklore": "The legend of Jesal and Toral, set in the Kutch region, tells of a bandit named Jesal who is transformed by Toral, a devout woman, after he tries to steal a prized mare from her stable; she guides him away from his violent life toward devotion, and both are venerated today at a shrine in Anjar.",
+  "monuments": ["Rani ki Vav (Queen's Stepwell), Patan", "Somnath Temple", "Statue of Unity", "Modhera Sun Temple", "Dwarkadhish Temple"]
+}

@@ -1,0 +1,30 @@
+{
+  "state": "West Bengal",
+  "capital": "Kolkata",
+  "languages": ["Bengali"],
+  "traditionalDress": {
+    "men": "A dhoti paired with a panjabi (the Bengali term for a kurta), often in cotton or silk with light embroidery around the collar; a shawl is added for cooler weather or formal occasions.",
+    "women": "The Tant saree (a crisp, lightweight cotton saree) for everyday wear, with the Garad saree (white with a red border) and richly patterned Baluchari or Kantha-embroidered silks reserved for festivals like Durga Puja.",
+    "image": "/images/west-bengal/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Durga Puja",
+      "description": "West Bengal's largest festival, a multi-day celebration of Goddess Durga's victory over evil, marked by elaborately themed pandals, artistic clay idols, and citywide festivities in Kolkata."
+    },
+    {
+      "name": "Poila Boishakh",
+      "description": "The Bengali New Year, celebrated with new clothes, sweets, cultural programs, and the ceremonial opening of new account books (Haal Khata) by traders."
+    },
+    {
+      "name": "Ganga Mahotsav",
+      "description": "A cultural festival held along the Ganges in Varanasi's Bengali community and in Bengal itself, showcasing music, dance, art, and boat races."
+    }
+  ],
+  "danceForms": ["Chhau (Purulia)", "Gambhira", "Baul"],
+  "music": ["Rabindra Sangeet (songs composed by Rabindranath Tagore)", "Baul devotional folk music", "Bhatiali (boatmen's songs)"],
+  "cuisine": ["Machher Jhol (fish curry)", "Shorshe Ilish (hilsa in mustard sauce)", "Shukto", "Rosogolla", "Mishti Doi"],
+  "artsCrafts": ["Kantha embroidery", "Terracotta art of Bishnupur", "Patachitra scroll painting", "Dokra metal casting"],
+  "folklore": "In the Sundarbans, Bonbibi is venerated by both Hindu and Muslim forest-dwellers as the guardian spirit of the mangrove forest. According to the legend, she defeated the demon tiger-king Dakshin Rai to protect a boy named Dukhe, and honey-collectors and woodcutters still invoke her protection before entering the forest.",
+  "monuments": ["Victoria Memorial, Kolkata", "Howrah Bridge", "Terracotta Temples of Bishnupur", "Hazarduari Palace", "Belur Math"]
+}

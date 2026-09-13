@@ -1,0 +1,30 @@
+{
+  "state": "Uttar Pradesh",
+  "capital": "Lucknow",
+  "languages": ["Hindi", "Urdu"],
+  "traditionalDress": {
+    "men": "Dhoti-kurta or kurta-pajama for everyday and festive wear; a sherwani is worn for formal or ceremonial occasions, particularly in the Awadh (Lucknow) region.",
+    "women": "Sarees and salwar kameez, frequently featuring Lucknow's Chikankari (delicate hand embroidery) or woven from Banarasi silk, prized for its gold brocade work.",
+    "image": "/images/uttar-pradesh/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Kumbh Mela",
+      "description": "One of the world's largest religious gatherings, held at Prayagraj at the confluence of the Ganges, Yamuna, and mythical Saraswati rivers, where pilgrims bathe to seek spiritual purification."
+    },
+    {
+      "name": "Ram Barat",
+      "description": "A grand procession in Ayodhya reenacting the wedding of Lord Rama, featuring decorated floats, music, and dance."
+    },
+    {
+      "name": "Braj Holi",
+      "description": "An extended Holi celebration in Mathura and Vrindavan honoring Lord Krishna, including the distinctive Lathmar Holi, in which women playfully beat men with sticks."
+    }
+  ],
+  "danceForms": ["Kathak", "Raslila (Krishna-Radha dance-drama)"],
+  "music": ["Thumri", "Khayal", "Bhojpuri folk music (Birha, Chaita)"],
+  "cuisine": ["Awadhi kebabs and biryani", "Chaat", "Petha (Agra)", "Nihari"],
+  "artsCrafts": ["Chikankari embroidery (Lucknow)", "Banarasi silk weaving (Varanasi)", "Saharanpur woodwork", "Mughal miniature painting"],
+  "folklore": "The Alha-Khand, an oral epic from the Bundelkhand region (spanning parts of Uttar Pradesh and Madhya Pradesh), celebrates the 12th-century warrior brothers Alha and Udal, who fought under King Parmal of Mahoba; sung for over 900 years by folk balladeers, it remains part of an annual festival in Mahoba tied to the monsoon season.",
+  "monuments": ["Taj Mahal, Agra", "Agra Fort", "Fatehpur Sikri", "Bara Imambara, Lucknow"]
+}

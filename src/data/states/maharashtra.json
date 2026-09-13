@@ -1,0 +1,30 @@
+{
+  "state": "Maharashtra",
+  "capital": "Mumbai",
+  "languages": ["Marathi"],
+  "traditionalDress": {
+    "men": "A dhoti (dhotar) paired with a kurta, traditionally topped with a pheta — a turban tied in distinct regional styles, notably in Pune and Kolhapur — worn for weddings and festivals.",
+    "women": "The Nauvari (nine-yard) saree, draped in a dhoti-like style that allows freedom of movement and is closely associated with farm work, Lavani performances, and festivals like Gudi Padwa. For weddings and special occasions, women wear the Paithani silk saree, woven in Paithan and known for its peacock and lotus motifs.",
+    "image": "/images/maharashtra/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Ganesh Chaturthi",
+      "description": "Maharashtra's most prominent festival, an eleven-day celebration honoring Lord Ganesha with elaborately decorated idols installed in homes and public pandals, culminating in a procession to immerse the idols in water."
+    },
+    {
+      "name": "Gudi Padwa",
+      "description": "The Marathi New Year, marked by raising a gudi — a decorated pole topped with an upturned copper or silver vessel — outside homes as a symbol of victory and prosperity."
+    },
+    {
+      "name": "Nag Panchami",
+      "description": "A festival dedicated to snake deities (Nag Devta), with prayers offered for protection from snakebite; it is counted among the festivals with roots in Maharashtra."
+    }
+  ],
+  "danceForms": ["Lavani", "Tamasha", "Dhangari Gaja"],
+  "music": ["Powada (heroic ballads, especially of Chhatrapati Shivaji Maharaj)", "Natya Sangeet (classical musical theatre)", "Abhang (Varkari devotional songs)"],
+  "cuisine": ["Puran Poli", "Misal Pav", "Bharli Vangi (stuffed eggplant)", "Modak", "Solkadhi"],
+  "artsCrafts": ["Warli painting", "Paithani silk weaving", "Kolhapuri chappals", "Bidriware"],
+  "folklore": "Maharashtra has a strong oral epic and ballad tradition; Powada ballads recount the heroism of Maratha warriors, most famously Chhatrapati Shivaji Maharaj, and are still performed at community gatherings and public events today.",
+  "monuments": ["Ajanta Caves", "Ellora Caves", "Gateway of India", "Shaniwar Wada", "Elephanta Caves"]
+}

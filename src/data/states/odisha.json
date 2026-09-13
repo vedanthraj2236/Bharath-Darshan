@@ -1,0 +1,30 @@
+{
+  "state": "Odisha",
+  "capital": "Bhubaneswar",
+  "languages": ["Odia"],
+  "traditionalDress": {
+    "men": "Dhoti and kurta, worn plain for everyday life and in finer handloom fabric for festivals and temple visits.",
+    "women": "Sarees woven in the distinctive ikat-style Bandha technique — most famously the Sambalpuri saree — along with the Bomkai and Maniabandha weaves, often paired with silver filigree jewelry.",
+    "image": "/images/odisha/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Rath Yatra",
+      "description": "Odisha's most famous festival, held in Puri, in which massive wooden chariots carrying the deities Jagannath, Balabhadra, and Subhadra are pulled through the streets by thousands of devotees."
+    },
+    {
+      "name": "Nuakhai",
+      "description": "A harvest festival in western Odisha where families offer the season's first rice harvest to the local deity before eating it themselves, marking the start of the new agricultural year."
+    },
+    {
+      "name": "Konark Dance Festival",
+      "description": "An annual festival held against the backdrop of the Konark Sun Temple, showcasing Odissi and other Indian classical dance forms."
+    }
+  ],
+  "danceForms": ["Odissi", "Gotipua", "Chhau (mask-less Odisha style)"],
+  "music": ["Odissi music (rooted in temple traditions)", "Dalkhai folk songs of western Odisha"],
+  "cuisine": ["Dalma (lentil and vegetable stew)", "Rasagulla", "Chhena Poda", "Pakhala (fermented rice)"],
+  "artsCrafts": ["Pattachitra scroll painting", "Applique work (Pipili)", "Silver filigree (Cuttack)", "Stone carving"],
+  "folklore": "According to the Samba Purana, Samba — a son of Lord Krishna — was cured of leprosy after worshipping the Sun god Surya, and in gratitude built a temple to him; this legend is closely tied to the origins of the 13th-century Konark Sun Temple, built in the form of a colossal chariot.",
+  "monuments": ["Konark Sun Temple", "Jagannath Temple, Puri", "Lingaraj Temple, Bhubaneswar", "Udayagiri and Khandagiri Caves"]
+}

@@ -1,0 +1,30 @@
+{
+  "state": "Assam",
+  "capital": "Dispur",
+  "languages": ["Assamese"],
+  "traditionalDress": {
+    "men": "A suriya (dhoti) with a chadar (drape) called a seleng, or simply a dhoti-kurta; the gamosa, a white handwoven cloth with a red border, is worn or carried on many social and religious occasions.",
+    "women": "The Mekhela Chador, a two-piece garment consisting of a cylindrical skirt (mekhela) and an upper drape (chador), traditionally handwoven from Assam silk such as muga, eri, or pat silk with intricate motifs.",
+    "image": "/images/assam/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Bihu",
+      "description": "Assam's main festival, comprising three harvest-related celebrations across the year — Bohag (Rongali) Bihu marking the new year and spring, Kati Bihu, and Magh (Bhogali) Bihu — each with its own songs, dances, and rituals."
+    },
+    {
+      "name": "Ambubachi Mela",
+      "description": "An annual festival at the Kamakhya Temple in Guwahati marking the symbolic menstruation of the goddess Kamakhya; the temple closes for three days before reopening with rituals attended by thousands of devotees."
+    },
+    {
+      "name": "Ali Aye Ligang",
+      "description": "A spring sowing festival of the Mising community, celebrated with community feasts, folk songs, and the Gumrag dance."
+    }
+  ],
+  "danceForms": ["Bihu dance", "Sattriya", "Ojapali"],
+  "music": ["Bihu songs", "Instruments include the dhol, pepa (buffalo-horn trumpet), and taal"],
+  "cuisine": ["Masor Tenga (sour fish curry)", "Khar", "Pitha (rice cakes)", "Assam tea"],
+  "artsCrafts": ["Muga silk weaving", "Assamese terracotta and pottery", "Bamboo and cane craft"],
+  "folklore": "Tejimola is a well-known Assamese folk tale about a girl mistreated and ultimately killed by her cruel stepmother, who is then reincarnated in several forms — including a plant and a bird — before her identity is restored; the story is often told as a lesson about compassion and justice.",
+  "monuments": ["Kamakhya Temple, Guwahati", "Kaziranga National Park", "Rang Ghar", "Sivasagar's Ahom-era temples"]
+}

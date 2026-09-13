@@ -1,0 +1,30 @@
+{
+  "state": "Goa",
+  "capital": "Panaji",
+  "languages": ["Konkani"],
+  "traditionalDress": {
+    "men": "A simple kurta or shirt with a dhoti or loose trousers for everyday wear; a white kurta-dhoti with a turban is worn for the Shigmo festival.",
+    "women": "The Kunbi saree, a checked cotton saree traditionally worn by the indigenous Kunbi community, draped just below the knee; Goan Catholic women traditionally wear the Pano Bhaju, pairing a wrap-around lower garment with a lace-trimmed blouse — a blend of Indian and Portuguese styles.",
+    "image": "/images/goa/dress.jpg"
+  },
+  "festivals": [
+    {
+      "name": "Goa Carnival",
+      "description": "A colorful pre-Lenten festival introduced during Portuguese rule, featuring parades, floats, music, and dancing in the streets over several days."
+    },
+    {
+      "name": "Shigmo",
+      "description": "A spring folk festival honoring the arrival of the season and the homecoming of warriors, marked by processions, the Ghode Modni (horse dance), and other traditional performances."
+    },
+    {
+      "name": "Sao Joao",
+      "description": "A monsoon festival where locals, especially young men, jump into wells, ponds, and rivers to celebrate the arrival of the rains, accompanied by singing and feasting."
+    }
+  ],
+  "danceForms": ["Fugdi", "Dekhni", "Dhalo"],
+  "music": ["Mando (Goan Catholic musical tradition)", "Fado-influenced Konkani ballads"],
+  "cuisine": ["Goan Fish Curry with rice", "Vindaloo", "Bebinca", "Sorpotel"],
+  "artsCrafts": ["Coconut shell and bamboo crafts", "Azulejo-style tilework", "Brass and clay handicrafts"],
+  "folklore": "Sateri, worshipped in the form of an anthill, is one of Goa's oldest folk deities and is venerated as a primordial mother goddess in villages across the state; over time she became closely associated with Shantadurga, a form of Durga especially popular in Goa.",
+  "monuments": ["Basilica of Bom Jesus", "Se Cathedral", "Fort Aguada", "Chapora Fort"]
+}
