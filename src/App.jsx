@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-ivory-100">
         <Nav />
         <Routes>
